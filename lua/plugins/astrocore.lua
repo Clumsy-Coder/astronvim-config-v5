@@ -26,16 +26,22 @@ return {
     },
     -- passed to `vim.filetype.add`
     filetypes = {
-      -- see `:h vim.filetype.add` for usage
       extension = {
-        foo = "fooscript",
+        mdx = "markdown.mdx",
+        qmd = "markdown",
       },
       filename = {
-        [".foorc"] = "fooscript",
+        ["Brewfile"] = "ruby",
+        ["dockerfile"] = "dockerfile",
+        [".yamllint"] = "yaml",
       },
       pattern = {
-        [".*/etc/foo/.*"] = "fooscript",
+        [".*%.tmux.conf"] = "tmux", -- files in dotfiles/tools/tmux/ folder
+        [".env.*"] = "conf",
       },
+      -- extension = {
+      --   -- conf = "config",
+      -- }
     },
     -- vim options can be configured here
     options = {

@@ -40,4 +40,7 @@ return {
   -- ------------------------------------------------------------------------------------------- --
   -- scrolling
   { import = "astrocommunity.scrolling.mini-animate" },
+  -- ------------------------------------------------------------------------------------------- --
+  -- markdown and latex
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 }

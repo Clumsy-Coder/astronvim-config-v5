@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 -- Configuration documentation can be found with `:h astrolsp`
@@ -20,7 +20,7 @@ return {
     formatting = {
       -- control auto formatting on save
       format_on_save = {
-        enabled = true, -- enable or disable format on save globally
+        enabled = false, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
           -- "go",
         },
@@ -92,6 +92,17 @@ return {
           cond = function(client)
             return client.supports_method "textDocument/semanticTokens/full" and vim.lsp.semantic_tokens ~= nil
           end,
+        },
+        -- remap <Leader>lR to open references using Snacks.picker
+        -- check
+        -- https://github.com/AstroNvim/AstroNvim/blob/b6eaa44/lua/astronvim/plugins/_astrolsp_mappings.lua#L97-L98C86
+        -- https://github.com/AstroNvim/AstroNvim/issues/1423#issue-1476556426
+        -- https://github.com/folke/snacks.nvim/blob/bc0630e/docs/picker.md#general
+        -- https://github.com/folke/snacks.nvim/blob/bc0630e/docs/picker.md#lsp_references
+        ["<Leader>lR"] = {
+          function() require("snacks.picker").lsp_references() end,
+          desc = "Search references",
+          cond = "textDocument/references",
         },
       },
     },

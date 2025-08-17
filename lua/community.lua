@@ -37,4 +37,7 @@ return {
   -- ------------------------------------------------------------------------------------------- --
   -- motions
   { import = "astrocommunity.motion.mini-surround" },
+  -- ------------------------------------------------------------------------------------------- --
+  -- scrolling
+  { import = "astrocommunity.scrolling.mini-animate" },
 }

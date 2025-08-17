@@ -34,4 +34,7 @@ return {
   -- keybinding cheatsheet
   -- press <F1> to open
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
+  -- ------------------------------------------------------------------------------------------- --
+  -- motions
+  { import = "astrocommunity.motion.mini-surround" },
 }

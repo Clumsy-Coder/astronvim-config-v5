@@ -17,6 +17,9 @@ return {
   -- press <F1> to open
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   -- ------------------------------------------------------------------------------------------- --
+  -- markdown and latex
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  -- ------------------------------------------------------------------------------------------- --
   -- motions
   { import = "astrocommunity.motion.mini-surround" },
 
@@ -45,9 +48,6 @@ return {
   -- ------------------------------------------------------------------------------------------- --
   -- scrolling
   { import = "astrocommunity.scrolling.mini-animate" },
-  -- ------------------------------------------------------------------------------------------- --
-  -- markdown and latex
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   -- ------------------------------------------------------------------------------------------- --
   -- media
   { import = "astrocommunity.media.vim-wakatime" },

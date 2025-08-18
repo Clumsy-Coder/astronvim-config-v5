@@ -13,6 +13,10 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- ------------------------------------------------------------------------------------------- --
+  -- indent
+  { import = "astrocommunity.indent.indent-rainbowline" },
+
+  -- ------------------------------------------------------------------------------------------- --
   -- keybinding cheatsheet
   -- press <F1> to open
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },

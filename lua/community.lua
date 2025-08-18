@@ -52,6 +52,7 @@ return {
 
   -- ------------------------------------------------------------------------------------------- --
   -- recipe
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },     -- NVchad statusline theme
   { import = "astrocommunity.recipes.heirline-tabline-buffer-number" }, -- show buffer number before the filename
 
   -- ------------------------------------------------------------------------------------------- --

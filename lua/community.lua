@@ -51,6 +51,10 @@ return {
   { import = "astrocommunity.pack.yaml" },
 
   -- ------------------------------------------------------------------------------------------- --
+  -- recipe
+  { import = "astrocommunity.recipes.heirline-tabline-buffer-number" }, -- show buffer number before the filename
+
+  -- ------------------------------------------------------------------------------------------- --
   -- scrolling
   { import = "astrocommunity.scrolling.mini-animate" },
 }

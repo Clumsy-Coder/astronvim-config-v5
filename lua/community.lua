@@ -19,6 +19,11 @@ return {
   -- ------------------------------------------------------------------------------------------- --
   -- markdown and latex
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
+  -- ------------------------------------------------------------------------------------------- --
+  -- media
+  { import = "astrocommunity.media.vim-wakatime" },
+
   -- ------------------------------------------------------------------------------------------- --
   -- motions
   { import = "astrocommunity.motion.mini-surround" },
@@ -48,7 +53,4 @@ return {
   -- ------------------------------------------------------------------------------------------- --
   -- scrolling
   { import = "astrocommunity.scrolling.mini-animate" },
-  -- ------------------------------------------------------------------------------------------- --
-  -- media
-  { import = "astrocommunity.media.vim-wakatime" },
 }

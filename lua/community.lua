@@ -13,6 +13,10 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- ------------------------------------------------------------------------------------------- --
+  -- keybinding cheatsheet
+  -- press <F1> to open
+  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
+  -- ------------------------------------------------------------------------------------------- --
   -- motions
   { import = "astrocommunity.motion.mini-surround" },
 
@@ -38,10 +42,6 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.yaml" },
 
-  -- ------------------------------------------------------------------------------------------- --
-  -- keybinding cheatsheet
-  -- press <F1> to open
-  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   -- ------------------------------------------------------------------------------------------- --
   -- scrolling
   { import = "astrocommunity.scrolling.mini-animate" },

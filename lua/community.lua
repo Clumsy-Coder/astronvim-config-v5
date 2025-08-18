@@ -13,6 +13,10 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- ------------------------------------------------------------------------------------------- --
+  -- motions
+  { import = "astrocommunity.motion.mini-surround" },
+
+  -- ------------------------------------------------------------------------------------------- --
   -- add language packs
   -- check
   --    https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/pack
@@ -38,9 +42,6 @@ return {
   -- keybinding cheatsheet
   -- press <F1> to open
   { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
-  -- ------------------------------------------------------------------------------------------- --
-  -- motions
-  { import = "astrocommunity.motion.mini-surround" },
   -- ------------------------------------------------------------------------------------------- --
   -- scrolling
   { import = "astrocommunity.scrolling.mini-animate" },

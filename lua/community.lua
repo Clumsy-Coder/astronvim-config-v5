@@ -13,6 +13,10 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
 
   -- ------------------------------------------------------------------------------------------- --
+  -- editing-support
+  { import = "astrocommunity.editing-support.nvim-treesitter-context" },
+
+  -- ------------------------------------------------------------------------------------------- --
   -- indent
   { import = "astrocommunity.indent.indent-rainbowline" },
 

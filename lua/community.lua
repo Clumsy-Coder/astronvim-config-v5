@@ -16,6 +16,7 @@ return {
   -- editing-support
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.editing-support.quick-scope" },
 
   -- ------------------------------------------------------------------------------------------- --
   -- indent

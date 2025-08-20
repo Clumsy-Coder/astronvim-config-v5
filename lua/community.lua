@@ -18,6 +18,7 @@ return {
 
   -- ------------------------------------------------------------------------------------------- --
   -- editing-support
+  { import = "astrocommunity.editing-support.comment-box-nvim" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.editing-support.quick-scope" },
@@ -65,7 +66,7 @@ return {
 
   -- ------------------------------------------------------------------------------------------- --
   -- recipe
-  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },     -- NVchad statusline theme
+  -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },     -- NVchad statusline theme
   { import = "astrocommunity.recipes.heirline-tabline-buffer-number" }, -- show buffer number before the filename
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },         -- show breadcrumbs on the winbar (below bufferline)
 

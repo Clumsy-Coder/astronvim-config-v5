@@ -31,7 +31,6 @@ return {
   -- ------------------------------------------------------------------------------------------- --
   -- keybinding cheatsheet
   -- press <F1> to open
-  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
   -- ------------------------------------------------------------------------------------------- --
   -- markdown and latex
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },

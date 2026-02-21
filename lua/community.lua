@@ -25,6 +25,10 @@ return {
   { import = "astrocommunity.editing-support.quick-scope" },
 
   -- ------------------------------------------------------------------------------------------- --
+  -- file-explorer
+  { import = "astrocommunity.file-explorer.yazi-nvim" },
+
+  -- ------------------------------------------------------------------------------------------- --
   -- indent
   { import = "astrocommunity.indent.indent-rainbowline" },
 
